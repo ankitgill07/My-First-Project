@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+
+}
+.top-content{
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+
+}
+.top-content span{
+ font-size: 15px;
+ font-weight: 200;
+ font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 10%;
+}
+.logo h1{
+    font-size: 40px;
+    font-weight: 650;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar a{
+    font-size: 17px;
+    font-weight: 560;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #787a7a;
+    transition: all 0.03s ease;
+   
+}
+.navbar a:hover{
+    color: black;
+}
+.nav-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.nav-icons i{
+    font-size: 20px;
+}
+.top-continer{
+    display: flex;
+    height: 450px;
+  
+     align-items: center;
+    line-height: 1.2;
+     background-color: #e6f1f5;
+     align-self: flex-start;
+   gap: 180px;
+   margin-top: 200px;
+}
+
+.backgroung{
+ display: flex;
+ justify-content: center;
+ margin: 30px 10%;
+
+}
+
+.text-section p{
+ font-size: 15px;
+ font-weight: 600;
+ font-family: Arial, Helvetica, sans-serif;
+ color:#787a7a ;
+ margin-bottom: 8px;
+}
+
+.text-section h2{
+    font-size: 65px;
+    font-weight: 350;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom:30px;
+}
+
+.text-section a{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+  border: 2px solid black;
+  padding: 10px 20px;
+  color: white;
+background-color: black;
+transition: all 0.3s ease;
+}
+.text-section a:hover{
+    background-color: #e6f1f5;
+    color: black;
+}
+
+
+
+
+.imnages-sectio img{
+    height: 780px;
+    padding-bottom: 163px;
+}
+.collection{
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    margin: 30px 10%
+    
+}
+.text-collection h3{
+    font-size:  50px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    color: black;
+    padding-left: 2px;
+}
+.text-collection span{
+ border-bottom: 3px solid black;
+}
+.text-collection h6{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #787a7a;
+    margin-bottom: 8px;
+}
+.text-collection p{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.text-collection a{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: sans-serif;
+    border: 1px solid #787a7a;
+    padding: 10px 27px;
+    color: #787a7a;
+      background-color: #fff;
+      transition: all 0.3s ease;
+    
+}
+.text-collection a:hover{
+    background-color: black;
+    color: white;
+}
+.images2 {
+margin-top: 130px;
+margin-bottom: 130px;
+
+}
+
+.sale__grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom:240px;
+
+  }
+  
+  .sale__card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .sale__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: var(--white);
+    text-align: center;
+    color: #fff;
+  }
+  
+.top-sale h2{
+display: flex;
+justify-content: center;
+font-size: 40px;
+   font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ margin-bottom: 80px;
+  }
+  .top-sale span{
+   
+    border-bottom: 3px solid black;
+  }
+
+
+
+
+
+.sale__title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+  
+  .sale__title span {
+    font-size: 2.5rem;
+    
+   
+  }
+  
+  .sale__subtitle {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+  
+  .sale__btn {
+    margin-top: 2rem;
+    padding: 10px 20px;
+    color: var(--white);
+    border: none;
+    background-color: #111
+    
+  }
+  
+  .sale__card::before {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+  }
+  
+  .sale__card:hover::before {
+    top: 0;
+    
+  }
+
+  
+  .sale__card:hover .sale__btn {
+    color: black;
+    background-color: white;
+  }
+
+
+
+.text-second{
+ text-align: center;
+ margin-bottom: 30px;
+ 
+}
+
+.main-text h1 {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 80px;
+}
+
+.main-text span{
+  border-bottom: 3px solid black;
+   
+}
+
+.nav-product {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+.nav-product a {
+ color: #787a7a;
+ font-size: 17px;
+ font-weight: 600;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-product a:hover {
+  color: #111;
+}
+
+
+
+.porducts{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+margin: 300px;
+   gap: 2rem;
+   margin-top: 0;
+   margin-bottom: 90px;
+ 
+  
+}
+.must-section{
+position: relative;
+margin-bottom: 20px;
+}
+
+.must-section img{
+    width: 100%; 
+    height: auto;
+    margin-bottom : 3px;
+   
+
+}
+
+.must-section h4{
+  font-size: 21px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 8px;
+}
+
+
+.must-section span{
+   color: #787a7a;
+   font-size: 15px;
+   text-decoration: line-through;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.must-section p{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.top-color h2{
+ display: flex;
+ justify-content: center;
+
+font-size: 35px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+margin-bottom: 100px;
+padding-top: 100px;
+
+
+}
+.top-color .one{
+  border-bottom: 3px solid black;
+
+}
+.top-color{
+background-color: #f0f0f0;
+     margin-top: 0;
+
+
+}
+
+
+
+
+.news-section{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+  margin:  0 300px ;
+  gap: 2rem;
+  
+
+
+}
+
+
+.images-section img{
+  width: 100%;
+  height: auto;
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 12px 13px;
+  color: #999999;
+ 
+}
+
+
+.images-section h3{
+   text-align: center;
+   font-size: 23px;
+   font-family: sans-serif;
+   font-weight: 510;
+   color: #111;
+   margin-bottom: 10px;
+
+}
+.images-section hr{
+  width: 380px;
+  margin: 20px;
+}
+.images-section p{
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999999;
+}
+
+.images-section i{
+  display: flex;
+  justify-content: center;
+  color: #999999;
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+.logo-icones{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  height: 250px;
+
+}
+
+
+.png-logo img{
+  filter: invert(50%);
+  width: 140px;
+  height: auto;
+}
+
+.png-logo img:hover{
+  filter: invert(1%);
+}
+
+.contanct-section{
+  display: flex;
+  justify-content: space-between;
+ /* align-items: center; */
+ height: 350px;
+  margin: 0 300px;
+  margin-top: 100px;
+}
+.text-cones img{
+    width: 90px;
+    height: auto;
+   margin: 7px 7px;
+}
+
+
+
+
+.text-cones h3{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999999;
+  margin-bottom: 10px;
+  
+}
+.text-cones hr{
+  margin-bottom: 30px;
+  margin-left: 3px;
+  width: 56px;
+ border: 1px solid #999999;
+
+}
+.text-cones p{
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  color: #999999;
+
+}
+.text-cones p:hover{
+  color: #707070;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 300px;
+  height: 100px;
+}
+.footer-section p{
+
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #999999;
+  
+}
+
+.foote hr{
+  border: 0.40px solid #111;
+}
+
+
+
+.foote:hover{
+  border: 2px solid black;
+  border-bottom: transparent;
+
+}
+
+
+
+.foote input{
+  border: none;
+  font-size: 15px;
+
+}
+
+
+
+button{
+  padding: 12px 28px;
+  border: none;
+  background-color: #111;
+  color: white;
+}
+

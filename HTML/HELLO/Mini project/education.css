@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: #f7ca02;
+    height: 55px;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding: 0 50px;
+}
+.navlogo img{
+    width: 56px;
+    height: auto;
+}
+.navhome{
+    display: flex;
+    gap: 2rem;
+   
+  
+}
+.navhome a{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-section{
+    display: flex;
+ margin-bottom: 100px;
+    height: 700px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.study-section img{
+    background-size: cover;
+    width: 500px;
+    height: 390px;
+    margin: 60px 60px;
+    
+ 
+ 
+}
+
+.study{
+  margin-top: 80px;
+    width: 600px;
+
+}
+
+
+.study h1{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.study p{
+    font-size: 0.85rem;
+    margin-top: 8px;
+    margin-bottom: 17px;
+    line-height: 17px;
+}
+.Readbtn{
+    padding: 8px 24px;
+    border: none;
+    background-color: #f7ca02;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600 ;
+
+}
+
+.skiles-section{
+  
+    background-color: #f7ca02;
+    margin-top: 0;
+    height: 1160px;
+}
+
+.skile-text{
+padding-top: 280px;
+padding-left: 60px;
+
+
+
+}
+.skile-text h3{
+ font-size: 3rem;
+margin-bottom: 10px;
+}
+
+
+
+.skiles-mini{
+    width:330px;
+     font-size: 0.85rem;
+    line-height: 1.1rem;
+   
+}
+.Readtbtn{
+    margin-top: 20px;
+    padding: 8px 24px;
+    border: none;
+    background-color: black;
+    color:white;
+    font-size: 1rem;
+    font-weight: 600 ;
+}
+
+.gruop-images{
+    margin-top: 0;
+    position: absolute;
+    top: 70rem;
+}
+
+.gruop-images img{
+    width: 90%;
+    height: auto;
+    margin-left: 390px;
+    margin-top: 0px;
+}
+
+
+
+.skile-section{
+
+    
+   display: flex;
+   justify-content: center;
+
+}
+.happy-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 540px;
+    margin-top: 50px;
+    background-color:#e8e8e8;
+    width: 80%;
+    height: 330px;
+    padding: 0px 50px;
+    box-shadow: 10px 6px 15px rgba(0, 0, 0, 0.30);
+}
+
+.skile{
+    width: 500px;
+    
+}
+.skile h2{
+    color: #f7ca02;
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+}
+
+.skile p{
+    font-size: 0.85rem;
+    line-height: 1.1rem;
+    margin-bottom: 16px;
+}
+
+
+
+.skiles-images img{
+    width: 100%;
+    height: auto;
+    padding-left: 280px;
+
+}
+.graph-images img{
+    width: 112%;
+    height: auto;
+    padding-right: 50px;
+}
+.Readsbtn{
+
+    border: none;
+    background-color: #e8e8e8;
+     color: black;
+    font-size: 1rem;
+    font-weight: 600 ;
+    align-self: flex-start;
+}
+
+
+.prstiness{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.students-graph{
+margin-top: 60px;
+margin-bottom: 60px;
+display: flex;
+align-items: center;
+gap: 40px;
+width:90%;
+background-color: #e8e8e8;
+box-shadow: 10px 6px 15px rgba(0, 0, 0, 0.40);
+}
+
+.study-skile img{
+ width: 100%;
+}
+
+.student-skiles{
+    width: 750px;
+}
+.student-skiles h3{
+    font-size: 3rem;
+    color: #f7ca02;
+    margin-bottom: 10px;
+}
+.student-skiles p{
+    font-size: 0.85rem;
+    line-height: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.student-skiles img{
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.abouts-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    height: 1100px;
+    
+}
+.about h4{
+    font-size: 2.1rem;
+    color: #f7ca02;
+    margin-bottom: 20px;
+
+}
+.about p{
+    font-size: 0.85rem;
+    margin: 0 610px;
+    line-height: 1.1rem;
+    margin-bottom: 30px;
+}
+.about-images img{
+    width:70%;
+    margin-bottom: 30px;
+}
+
+.team-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 700px;
+    margin-left: 65px;
+}
+.team-text h3{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.team-text p{
+    margin-right: 300px;
+    font-size: 0.85rem;
+    line-height: 1.1rem;
+    margin-bottom: 20px;
+}
+.method-section{
+    display: flex;
+   padding: 0 65px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e8e8e8;
+    height: 750px;
+}
+
+.method-text{
+    width: 500px;
+}
+
+
+.method-text h3{
+    font-size: 3rem;
+    margin-bottom: 10px;
+
+}
+.method-text p{
+    font-size: 0.85rem;
+    line-height: 1.1rem;
+    margin-bottom: 20px;
+  
+}
+.method-images img{
+    width: 100%;
+}
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background-color: black;
+    color: white;
+    width: 550px;
+   
+ 
+}
+.form input{
+    background-color: black;
+    border: 1px solid white;
+width: 440px;
+
+}
+#subscribe{
+    background-color: black;
+    border: 1px solid white;
+    
+}
+
+.name-form input{
+    width: 200px;
+
+}
+
