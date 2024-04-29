@@ -1,0 +1,84 @@
+
+body{
+    background-color:  #ccc;;
+} 
+
+.contanir{
+    max-width: 900px;
+     margin: 0 auto;
+ 
+}
+.top_section{
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+    border-radius: 13px;
+
+}
+
+.small{
+    font-size: 20px;
+    
+}
+
+.from_container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    gap: 20px;
+}
+.from_contral{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+input, select, textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+input,:focus{
+ outline-color: rgba(255, 0, 0, 0.35) ;
+}
+.button_container{
+    display: flex;
+
+    justify-content: flex-end;
+    margin-top: 20px;
+    
+}
+button{
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    transition:  0.1s ease-in;
+}
+button:hover{
+    background-color: #ccc;
+    border: 2px solid red;
+    color: black;
+    transition: 1s ease-out;
+    cursor: pointer;
+}
+.textarea_contral{
+    grid-column: 1/ span 2;
+   
+ }
+ .textarea_contral,textarea{
+     width: 100%;
+ }
+ 
+ @media (max-width:460px){
+     .textarea_contral{
+         grid-column: 1/ span 1;
+      }
+ }

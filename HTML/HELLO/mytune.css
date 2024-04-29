@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background-image: url(https://github.com/anshuopinion/10-Practice-Project-Html-CSS/blob/Project-6-Music-Website/Project%206/images/hero_image.png?raw=true);
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+
+
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      position: sticky;
+  top: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.55);
+}
+
+
+.navbar{
+    background-color:#270082;
+    color: white;
+   
+   max-width: 1950px;
+   height: 61px;
+list-style: none;
+
+}
+
+
+.home{
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 110px;
+   
+
+}
+.Music{
+    font-size: 20px;
+    display: flex;
+    margin-right: 100px;
+}
+.Music,a{
+    text-decoration: none;
+    gap: 35px;
+    color: white;
+}
+.hero-section{
+display: flex;
+justify-content: center;
+
+
+}
+
+
+
+.contant{
+display: flex;
+flex-direction: column;
+gap: 30px;
+color: white;
+}
+
+
+
+.contant, h1{
+  
+    font-size: 70px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+.contant, p{
+    font-size: 18px;
+    font-weight: 100;
+ margin-bottom: 30px;
+}
+.music-section{
+   
+    text-align: center;
+       background-color:#281154;
+       height: 806px;
+       
+}
+.trail{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   padding: 40px;
+    color: white;
+}
+.trail h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.trail h3{
+    font-size: 25px;
+}
+.trail,p{
+    font-size: 20px ;
+}
+.matter{
+    font-size: 15px;
+}
+.start-btn{
+    margin-top: 0px;
+    padding: 10px 15px;
+    border: none;
+  font-size: 20px;
+    transition: 0.02s ease-in-out;
+    align-self: center;
+    background-color: red;
+    color: white;
+}
+.medium-section{
+
+    width: 100%;
+height: 3050px;
+opacity: 0px;
+
+
+
+background-color:#F9F6FF; 
+
+
+}
+.three-section{
+  padding: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  line-height: 34px;
+}
+.three-section h3{
+    margin-top: 50px;
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.three-section p{
+    font-size: 20px;
+    font-weight: 100;
+}
+.readbtn{
+    padding: 15px 20px;
+    border: none;
+    align-self: center;
+    background-color:#1B0058;
+    color: white;
+    margin-bottom: 40px;
+}
+.last-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 50px;
+      background-image: url(https://github.com/anshuopinion/10-Practice-Project-Html-CSS/blob/Project-6-Music-Website/Project%206/images/video.png?raw=true);
+  background-size: cover;
+    height: 100vh;
+    width: 1910px;
+     align-self: center
+     
+}
+.center{
+   color: white;
+   display: grid;
+   gap: 40px;
+   line-height: normal;
+}
+.center h4{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.center p{
+    padding-left: 450px;
+    padding-right: 450px;
+    font-size: 20px;
+    font-family: sans-serif
+    
+}
+.end-one{
+text-align: left;
+margin-top: 50px;
+display: flex;
+gap: 70px;
+
+}
+
+.gift-section{
+    display: grid;
+    gap: 5px;
+ 
+}
+.gift-section, h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gift-section p{
+   font-size: 16px;
+}
+
+.images5{
+
+}
+.lastbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 25px;
+    border: none;
+   margin-right: 500px;
+    background-color:#1B0058;
+    color: white;
+    margin-top: 16px;
+ font-size: 15px;
+}
+
+.last-end{
+
+ background-color: #1B0058; 
+ height: 290px;  
+ color: white;
+display: flex;
+gap: 35px;
+justify-content: center;
+align-items: center;
+padding-top: 20px
+
+
+}
+
+
+.contact-section h3{
+font-size: 20px;
+font-weight: 300;
+display: grid;
+margin-bottom: 0px;
+}
+
+
+
+span hr{
+    width: 250px;
+   
+}
+.contact-section ul{
+    margin-top: 20px;
+}
+
+.contact-section li{
+ list-style: none;
+
+}
+footer{
+display: flex;
+justify-content: center;
+align-items: center;
+ height: 40px;
+ background: #270082;
+color: white;
+ 
+}

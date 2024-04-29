@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+
+
+
+#home{
+    background-image: url(https://github.com/ankitgill07/ankitgill07/blob/main/hero-background1.jpg?raw=true);
+    
+
+    height: 1000px;
+
+  background-size: cover;
+
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.navbar{
+ max-width: 1880px;
+}
+
+
+.images img{
+    margin-top: 10px;
+    margin-left: 70px;
+    height: 50px;
+    width: 50px;
+}
+.home_section, a{
+ text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2 ease-in
+    
+}
+.home_section,a:hover{
+    transition: 0.2 ease-in-out;
+    color: red;
+}
+.top_section{
+   margin-top: 150px;
+   margin-left: 70px;
+   color: white;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section, h1{
+    font-size: 80px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section,p{
+    font-size: 28px;
+    font-weight: 300;
+    
+}
+.menu-btn{
+    padding: 10px 15px;
+    border: none;
+    align-self: flex-start;
+    border-radius: 4px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: 500;
+    transition: 0.2 ease-in;
+}
+.menu-btn:hover{
+   background-color: rgb(230, 14, 14);
+    transition: 0.2 ease-in-out;
+}
+#about{
+    margin-top: 0px;
+    background-color: #000108;
+ color: white;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+.our-menu {
+    margin-left: 70px;
+  }
+
+.our-menu h2{
+    margin-bottom: 10px;
+    font-size: 64px;
+    font-weight: 460;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.our-menu p{
+    font-size: 28px;
+   font-weight:100;
+ 
+}
+.explore-but{
+    margin-top: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    transition: 0.2 ease-in;
+}
+
+.explore-but:hover{
+    transition: 0.2 ease-in-out;
+    background-color: rgb(237, 15, 15);
+}
+
+.hero-images img{
+    margin: 30px;
+   height: 560px;
+   width: 850px;
+
+}
+.top-container{
+    background-color: #000108;
+height: 700px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.hedding {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #000108;
+    color: white;
+    padding-top: 70px;
+}
+
+
+.contant{
+width: 350px;
+height: 500px;
+
+gap: 0px;
+opacity: 0px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+transition: box-shadow 0.3s ease;
+background-color: black;
+ 
+}
+
+.contant:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.imagepng1{
+background-image: url(https://github.com/ankitgill07/ankitgill07/blob/main/burger1.jpg?raw=true);
+background-size: contain ;
+height: 70%;
+width: 100%;
+gap: 0px;
+}
+
+.imagepng2{
+    background-image: url(https://github.com/ankitgill07/ankitgill07/blob/main/burger2.jpg?raw=true);
+    background-size: contain ;
+    height: 70%;
+    width: 100%;
+    gap: 0px;
+    }
+.imagepng3{
+        background-image: url(https://github.com/ankitgill07/ankitgill07/blob/main/burger3.jpg?raw=true);
+        background-size: contain ;
+        height: 70%;
+        width: 100%;
+        gap: 0px;
+    }
+
+
+.you-menu{
+    color: white;
+  margin-top: 10px;
+ margin-left: 20px;
+}
+.you-menu h3{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+
+   
+}
+.you-menu p{
+ font-size: 15px;
+}
+.from-section{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    background-color: #3b3b38;
+    height: 650px;
+}
+.end-form{
+    display: grid;
+    gap: 2px;
+  text-align: center;
+  margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 30px;
+
+}
+
+.end-form h2{
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.first-form{
+    margin-top: 40px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.50);
+    width: 600px;
+    height: 490px;
+}
+  
+.end-form input{
+    border-radius: 2px;
+    height: 25px;
+   border: none ;
+   padding-left: 5px;
+  
+}
+#message{
+    border: none;
+    border-radius: 2px;
+    padding-left:5px ;
+}
+button{
+    margin-top: 20px;
+    padding: 8px 10px ;
+    margin-left: 225px;
+    margin-right: 225px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+.coustomers{
+text-align: center;
+color: white;
+background-color: #000108;
+width: 100%;
+height: 660px;
+    
+}
+.coustomers h2{
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagepng9 img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+.imagepng10 img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+.coustomers p{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 460px;
+    padding-right: 460px;
+
+}
+.coustomers h3{
+    text-align: left;
+    padding-left: 460px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.gallery-section{
+text-align: center;
+background-color: #000108;
+color: white;
+padding-top: 100px;
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+.imagepng11 img{
+    display: flex;
+     border-radius: 5px;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 90px;
+    margin-top: 80px;
+}
+.contact-section-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b3b38;
+    height: 450px;
+    
+}
+#last-from, h3{
+ font-size: 25px;
+ margin-top: 40px;
+ margin-bottom: 40px;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+span{
+    color: white;
+}
+
+
+.item1{
+
+padding-right: 30px;
+
+}
+
+.item2{
+    padding-right: 30px;
+
+}
+
+#last-form{
+    text-align: center;
+ 
+    
+}
+.end-contact{
+    margin-top: 20px;
+   display: grid;
+   grid: 40px;
+  
+}
+.end-contact input{
+    padding-left: 7px;
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+}
+#message3{
+    padding-left: 7px;
+    border-radius: 3px;
+}

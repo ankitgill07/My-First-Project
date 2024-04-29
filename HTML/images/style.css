@@ -1,0 +1,118 @@
+ *{
+  padding: 0;
+  margin: 0;
+ }
+ #navbar{
+  background-color: #0f1111;
+  height: 50px;
+}
+ button{
+  background-color: #f08804;
+ }
+ .active{
+  color: #f08804;
+  font-size: 25px;
+ }
+ a{
+  margin-right: 250px;
+  color: white;
+  text-decoration: none;
+ }
+ .images{
+  text-align: center;
+  background-color: #f08804;
+  height: 700px;
+  background-image: url(https://creationmedia.in/wp-content/uploads/2021/10/Web-Design-Banner-in-patna.jpg);
+  background-size: cover;
+  }
+  h1{
+    text-align: center;
+    width: auto;
+    background-color: #f08804;
+    color: white;
+    font-size: normal;
+    
+  }
+  #start{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #f08804;
+    height: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  line-height: 30px;
+  }
+.team{
+  text-align: center;
+  background-color: #7a0a62;
+  color: #fff9f9;
+ line-height: 30px;
+  height: 300px;
+ padding-top: 5%;
+ 
+  
+}
+#Meet{
+  text-align: center;
+  background-color: rgb(168, 8, 8);
+  color: white;
+  padding-top: 4%;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(168, 8, 8);
+  width: 40%;
+  text-align: center;
+  color: #fdfcfc;
+ height: 300px;
+ width: 2000px;
+border: white;
+}
+#our{
+  text-align: center;
+  background-color: #0b8a8f;
+  color: #fdfcfc;
+  line-height: 30px;
+  height: 300px;
+  padding-top: 5%;
+}
+#Contact{
+  text-align: center;
+  background: #f08806;
+  padding-top: 4%;
+  color: #ffffff;
+}
+form{
+  text-align: center;
+  background-color: #f08806;
+  height: 300px;
+  padding-top: 1%;
+  color: #ffffff;
+}
+#button{
+  background-color: #7a0a62;
+  color: white;
+  font-size: 20px;
+}
+#main{
+  text-align: center;
+  background-color: #1d3a4f;
+  color: #ffffff;
+  padding-top: 5%;
+}
+.City{
+  text-align: center;
+  background-color: #1d3a4f;
+  line-height: 27px;
+  color: white;
+  height: 200px;
+  padding-top: 1%;
+}
+footer{
+  text-align: center;
+  background: #0f1111;
+  color: #ffffff;
+  height: 20px;
+
+}

@@ -1,0 +1,60 @@
+body{
+    background-color: #f8f8f8;
+}
+
+div{
+    padding: 50px;
+   animation: fadeIn 0.5 ease;}
+div{
+    margin: 0 auto;
+    padding: 20px;
+    height: 280px;
+    text-align: center;
+    width: 280px;
+    background-color:#eee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0,3 ease;
+    position: fixed;
+    top: 20px;
+    left: 800px;
+   padding: 50px;
+    
+}
+div:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#email{
+    height: 30px;
+    width: 250px;
+    border: transparent;
+    border-radius: 3px;
+}
+#password{ height: 30px;
+    width: 250px;
+    border: transparent;
+    border-radius: 3px;
+} 
+  
+
+button{
+    height: 30px;
+    width: 260px;
+    background-color:#10b9e3;
+    border: 0;
+    color: white;
+    border-radius: 3px;
+}
+
+
+
+@keyform  fadeIn{
+    form { 
+        opacity: 0;
+    }
+to { 
+    opacity: 1;
+}
+
+}
