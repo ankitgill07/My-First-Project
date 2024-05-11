@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.header-section{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    background-color: white;
+    height: 67px;
+    width: 100%;
+  position:fixed;
+  margin-top: 0;
+  z-index: 100;
+}
+.baclkground-images{
+  width: 160px;
+  height: 44px;
+}
+.icon button {
+    width: 44px;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: #F0F5FF;
+    padding: 8px 8px 8px 12px;
+    
+    
+}
+.icon i{
+    width: 24;
+    height: 24;
+    font-size: 1.1rem;
+   color: #989FAD;
+}
+.icon input{
+    border: none;
+    height: 40px;
+    width: 772.25px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-left: -6px;
+    background-color: #F0F5FF;
+    font-size: 1.1rem;
+    outline: none;
+
+}
+
+
+.icons-sections i {
+    font-size: 16px;
+    margin: 0px 8px 0px 0px;
+  
+    
+}
+.icons-sections{
+    width: 111.42px;
+    height: 42px;
+   padding: 10px;
+   border-radius: 10px;
+  
+}
+
+.icons-sections:hover{
+    background-color: #2A55E5;
+    color: white;
+}
+.icons i{
+    font-size: 16px;
+    margin: 0px 8px 0px 0px;
+}
+
+.icons-sections span{
+    font-size: 16px;
+}
+.img i { 
+font-size: 12px;
+margin: 0px 0px 0px 8px;
+transition: .5s ease-in-out;
+}
+
+.img i:hover{
+    transform: rotate(180deg);
+}
+
+
+.icons-dot{
+    font-size: 16px;
+    margin: 0px 8px 0px 0px;
+    text-align: center;
+    width: 42px;
+    height: 42px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.icons-dot:hover{
+    background-color: #FAFAFA;
+}
+
+.background-color{
+    background-color: #F1F2F4;
+    height: 3390px;
+  margin-top: 0;
+  
+}
+
+
+
+.backgound{
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-sections{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    width: 1599.98px;
+    height: 126px;
+    background-color: white;
+    text-align: center;
+} 
+
+.hero img{
+    width: 64px;
+    height: 64px;
+    margin: 0px 0px 12px;
+}
+
+
+.hero span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+   
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+.images img{
+    width: 1599.98px;
+    height: 265.39px;
+    margin-top: 15px;
+}
+.discount-section{
+    width: 1599.98px;
+    height: 138.13px;
+   margin: auto;
+   margin-top: 15px;
+}
+.shoping-section{
+width: 1330.66px;
+    height: 373px;
+    background-color: #ffffff;
+   margin-left: 152px;
+   margin-top: 15px;
+   overflow: hidden;
+   
+}
+.shoping{
+    height: 64px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.shoping span{
+    font-size: 20px;
+    font-weight: 600;
+     
+}
+
+.shoping i{
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    background-color: #2A55E5;
+    text-align: center;
+    padding: 4px;
+    color: #ffffff;
+    border-radius: 50%;
+}
+
+
+
+.smartphone{
+   display: flex;
+   gap: 0.80rem;
+}
+.Phone{
+ outline: 1px solid #ececec;
+ border-radius: 4px;
+ width: 186px;
+ height: 250px;
+margin-left: 16px;
+text-align: center;
+
+}
+
+.Phone img{
+  width: 186px;
+  height: 186px;
+
+}
+
+.Phone img:hover{
+    transform: scale(1.02);
+}
+
+.Phone p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #212121;
+  
+    margin-bottom: 8px;
+}
+.Phone span{
+   font-size: 14px;
+   font-weight: 600;
+}
+.Phone i{
+    font-size: 13px;
+    margin-left: 4px;
+}
+.watch{
+    width: 500px;
+    height: 100px;
+    border: #ffffff;
+    
+}
+
+.wacth-section{
+    position: absolute;
+    right: 150px;
+    top: 630px;
+}
+.wacth img{
+    width: 253.33px;
+    height: 389.03px;
+    margin-top: 10px;
+}
+
+.big-discount{
+    background-color: #ffffff;
+    margin: auto;
+    width: 1599.98px;
+    height: 279.90px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4px 12px;
+   }
+
+.Brands-section{
+    width: 1599.98px;
+    height: 344px;
+    background-color: #ffffff;
+   margin-left: 152px;
+   margin-top: 15px;
+   overflow: hidden;
+   margin-bottom: 15px;
+   
+}
+.colths-section{
+    display: flex;
+  
+}
+
+
+
+.cloths{
+    outline: 1px solid #ececec;
+    border-radius: 4px;
+    width: 200px;
+    height: 260px;
+   margin-left: 16px;
+   text-align: center;
+   
+}
+
+.cloths{
+    font-size: 15px;
+    font-weight: 500;
+    color: #212121;
+  
+    margin-bottom: 8px;
+}
+
+.cloths img{
+    width: 140px;
+  height: 190px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+ 
+}
+
+.cloths img:hover{
+    transform: scale(1.05);
+}
+.cloths p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #212121;
+   margin-bottom: 5px;
+}
+.cloths span{
+    font-size: 14px;
+   font-weight: 600;
+
+}
+.cloths i{
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.debit-section{
+    width: 1599.98px;
+    height: 163.63px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 10px;
+}
+.feature-section{
+    width: 1599.98px;
+    height: 361.95px;
+    background-color: #ffffff;
+   margin-top: 20px;
+    margin: auto;
+   overflow: hidden;
+   
+}
+
+.feature{
+    height: 64px;
+    padding: 16px;
+    margin-bottom: 0;
+
+}
+
+.feature span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.top-brand{
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+.deals-section{
+    width: 1599.98px;
+    height: 344px;
+    background-color: #ffffff;
+     margin: auto;
+    overflow: hidden;
+   margin-bottom: 15px;
+   
+}
+.Deals{
+    outline: 1px solid #ececec;
+    border-radius: 4px;
+    width: 200px;
+    height: 260px;
+   margin-left: 16px;
+   text-align: center;
+}
+.Deals img{
+    width: 186px;
+    height: 186px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.Deals img:hover{
+        transform: scale(1.05);
+}
+
+.Deals span{
+    font-size: 14px;
+   font-weight: 600;
+}
+.Deals i{
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.Deals p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #212121;
+   margin-bottom: 5px;
+}
+
+.footer-section{
+    width: 100%;
+    height: 354px;
+    background-color: #212121;
+}
+
+.end-section{
+    display: flex;
+   justify-content: space-between;
+   margin: 0px 70px;
+}
+.about{
+    margin-top: 40px;
+}
+
+
+
+.about span{
+    font-size: 12px;
+    color: #878787;
+    
+}
+
+.about ul{
+ margin-top: 12px;
+}
+
+.about li{
+    
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.about a:hover{
+    text-decoration: underline;
+}
+
+
+.about a{
+    padding-bottom: 5px;
+    text-decoration: none;
+  
+    color: #ffffff;
+}
+.contact-section{
+    display: flex;
+ 
+    width: 287.72px;
+    height: 205px;
+}
+
+.list-contact{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-top: 40px;
+    border-left: 1px solid #878787;
+    padding: 0px 0px 0px 32px;
+}
+
+.list-contact span{
+    font-size: 12px;
+    color: #878787;
+}
+
+.list-contact p{
+ margin-top: 12px;
+ margin-bottom: 17px;
+}
+
+.list-contact a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.list-contact i{
+    margin-top: 12px;
+    font-size: 1.2rem;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.address{
+     font-size: 12px;
+     color: #ffffff;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-top: 40px;
+}
+.address span{
+    font-size: 12px;
+    color: #878787;
+}
+
+.address p {
+  margin-top: 12px;
+}
+.address a {
+    text-decoration: none;
+    color: #2874f0;
+}
+
+.help-center{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    border-top: 1px solid #878787;
+}
+
+.help{
+  margin-top: 30px;
+}
+
+
+
+.help a{
+ text-decoration: none;
+ color: #ffffff;
+  font-size: 12px;
+}
+.help i{
+  font-size: 11px;
+  padding-right: 10px;
+  color: #dbb715;
+}

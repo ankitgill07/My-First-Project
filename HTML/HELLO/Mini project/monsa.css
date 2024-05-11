@@ -527,7 +527,7 @@ background-color: #f0f0f0;
 .foote input{
   border: none;
   font-size: 15px;
-
+  outline: none;
 }
 
 
