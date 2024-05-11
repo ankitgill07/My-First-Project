@@ -1,3 +1,5 @@
+
+
 let boxes = document.querySelectorAll(".box");
 let reset = document.querySelector("#reset-btn");
 let newgame = document.querySelector("#new-btn");
