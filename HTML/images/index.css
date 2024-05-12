@@ -155,14 +155,14 @@ transition: .5s ease-in-out;
 .discount-section{
     width: 1599.98px;
     height: 138.13px;
-   margin: auto;
+   margin:auto;
    margin-top: 15px;
 }
 .shoping-section{
 width: 1330.66px;
     height: 373px;
     background-color: #ffffff;
-   margin-left: 152px;
+   margin-left: 390px;
    margin-top: 15px;
    overflow: hidden;
    
@@ -235,18 +235,21 @@ text-align: center;
     width: 500px;
     height: 100px;
     border: #ffffff;
-    
+ 
 }
 
 .wacth-section{
     position: absolute;
-    right: 150px;
+    right: 24.2rem;
     top: 630px;
+  
+   
 }
 .wacth img{
     width: 253.33px;
     height: 389.03px;
     margin-top: 10px;
+    
 }
 
 .big-discount{
@@ -264,7 +267,7 @@ text-align: center;
     width: 1599.98px;
     height: 344px;
     background-color: #ffffff;
-   margin-left: 152px;
+   margin:auto ;
    margin-top: 15px;
    overflow: hidden;
    margin-bottom: 15px;
@@ -533,4 +536,30 @@ text-align: center;
   font-size: 11px;
   padding-right: 10px;
   color: #dbb715;
+}
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Adjustments for smaller devices */
+}
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Adjustments for small devices */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Adjustments for medium devices */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Adjustments for large devices */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Adjustments for extra large devices */
 }
